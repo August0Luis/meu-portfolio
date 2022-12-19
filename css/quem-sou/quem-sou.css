@@ -1,0 +1,30 @@
+.quem-sou {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quem-sou__cor {
+    background-color: #09090b;
+    padding: 50px 0 50px 0; 
+}
+
+.quem-sou__titulo {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 700;
+}
+
+.quem-sou__ponto {
+    color: #00a3ff;
+}
+
+.quem-sou__texto {
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #c8c8c8;
+    width: 50%;
+    padding-top: 30px;
+    line-height: 2rem;
+}

@@ -1,0 +1,12 @@
+.menu__link {
+    color: #c8c8c8;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu__link:hover {
+    color: #00a3ff;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.3s;
+}

@@ -1,0 +1,12 @@
+.cabecalho {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+header {
+    border-bottom: 1px solid  #101013;
+}

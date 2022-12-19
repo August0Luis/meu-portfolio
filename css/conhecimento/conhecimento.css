@@ -1,0 +1,49 @@
+.conhecimento__cor {
+    background-color: #09090b;
+}
+
+.conhecimento {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.conhecimento__titulo {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.conhecimento__ponto {
+    color: #00a3ff;
+}
+
+.conhecimento__informacoes {
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #c8c8c8;
+}
+
+.conhecimento__imagens {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.conhecimento__html:hover {
+    box-sizing: border-box;
+    border: #00a3ff solid 1px; 
+}
+
+.conhecimento__css:hover {
+    border: #00a3ff solid 1px;
+}
+
+.conhecimento__js:hover {
+    border: #00a3ff solid 1px;
+}
