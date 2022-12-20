@@ -15,3 +15,10 @@ var i = 0;
     }
 
 typeWriter();
+
+function aparecerTexto() {
+  document.querySelector(".conhecimento__informacoes").innerHTML = "Texto";
+}
+function reset() {
+  document.querySelector(".conhecimento__informacoes").innerHTML = "*passe o cursor do mouse no card para ler*";
+}
