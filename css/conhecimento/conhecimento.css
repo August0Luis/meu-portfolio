@@ -36,7 +36,6 @@
 }
 
 .conhecimento__html:hover {
-    box-sizing: border-box;
     border: #00a3ff solid 1px; 
 }
 
@@ -46,4 +45,28 @@
 
 .conhecimento__js:hover {
     border: #00a3ff solid 1px;
+}
+
+@media screen and (max-width:500px) {
+    .conhecimento {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conhecimento__titulo {
+        text-align: center;
+    }
+
+    .conhecimento__informacoes {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .conhecimento__texto {
+        padding-bottom: 40px;
+    }
+
+    .conhecimento__imagens {
+        width: 100%;
+    }
 }

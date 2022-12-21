@@ -7,7 +7,7 @@
 
 .quem-sou__cor {
     background-color: #09090b;
-    padding: 50px 0 50px 0; 
+    padding: 50px 0 50px 0;
 }
 
 .quem-sou__titulo {
@@ -27,4 +27,16 @@
     width: 50%;
     padding-top: 30px;
     line-height: 2rem;
+}
+
+@media screen and (max-width:500px) {
+    .quem-sou__titulo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .quem-sou__texto {
+        text-align: center;
+        width: 95%;
+    }
 }

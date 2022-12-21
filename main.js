@@ -16,8 +16,14 @@ var i = 0;
 
 typeWriter();
 
-function aparecerTexto() {
-  document.querySelector(".conhecimento__informacoes").innerHTML = "Texto";
+function aparecerTextoHtml() {
+  document.querySelector(".conhecimento__informacoes").innerHTML = "HTML é uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.";
+}
+function aparecerTextoCss() {
+  document.querySelector(".conhecimento__informacoes").innerHTML = "CSS é uma linguagem de folha de estilo composta por 'camadas', criado com o propósito de estilizar as páginas HTML";
+}
+function aparecerTextoJs() {
+  document.querySelector(".conhecimento__informacoes").innerHTML = "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma";
 }
 function reset() {
   document.querySelector(".conhecimento__informacoes").innerHTML = "*passe o cursor do mouse no card para ler*";

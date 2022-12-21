@@ -40,3 +40,10 @@
         opacity: 0;
     }
 }
+
+@media screen and (max-width:500px) {
+    .inicio__conteudo {
+        width: 94%;
+        margin-left: 10px;
+    }
+}

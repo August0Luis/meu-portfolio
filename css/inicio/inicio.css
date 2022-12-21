@@ -18,3 +18,9 @@
 .inicio__span {
     color: #00a3ff;
 }
+
+@media screen and (max-width:500px) {
+    .inicio__imagem {
+        display: none;
+    }
+}
