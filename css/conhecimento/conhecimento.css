@@ -10,6 +10,11 @@
     align-items: center;
     padding-top: 100px;
     padding-bottom: 100px;
+    min-height: 165px;
+}
+
+.conhecimento__texto {
+    width: 60%;
 }
 
 .conhecimento__titulo {
@@ -36,7 +41,7 @@
 }
 
 .conhecimento__html:hover {
-    border: #00a3ff solid 1px; 
+    border: #00a3ff solid 1px;
 }
 
 .conhecimento__css:hover {
