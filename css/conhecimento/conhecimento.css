@@ -42,7 +42,6 @@ article img {
     display: flex;
     width: 40%;
     justify-content: space-evenly;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
