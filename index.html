@@ -33,9 +33,9 @@
             <nav class="menu">
                 <ul class="menu__lista">
                     <li class="menu__item"><a class="menu__link" href="#">Ínicio</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Quem sou</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Projetos</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Conhecimentos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#quem-sou">Quem sou</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#projetos">Projetos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#conhecimentos">Conhecimentos</a></li>
                 </ul>
             </nav>
         </div>
@@ -53,7 +53,7 @@
                 <img src="imagens/logo-site.png" alt="Logotipo">
             </div>
         </section>
-        <section class="quem-sou__cor">
+        <section class="quem-sou__cor" id="quem-sou">
             <div class="quem-sou">
                 <img src="" alt="">
                 <h2 class="quem-sou__titulo">Quem sou<span class="quem-sou__ponto">.</span></h1>
@@ -63,30 +63,35 @@
             </div>
         </section>
         <section>
-            <h2 class="projetos__titulo">Projetos<span class="projetos__ponto">.</span></h2>
+            <h2 class="projetos__titulo" id="projetos">Projetos<span class="projetos__ponto">.</span></h2>
             <div class="projetos">
                 <article class="projetos__bank">
                     <h3 class="projetos__bank--titulo">Número Secreto</h3>
-                    <p class="projetos__bank--texto">Jogo criado a partir de conhecimentos HTML, Css e JavaScript. Foi utilizado reconhecimento de voz no projeto.</p>
-                    <a href="https://august0luis.github.io/Numero-Secreto/" class="projetos__link--bank">Visualizar o projeto</a>
+                    <p class="projetos__bank--texto">Jogo criado a partir de conhecimentos HTML, Css e JavaScript. Foi
+                        utilizado reconhecimento de voz no projeto.</p>
+                    <a href="https://august0luis.github.io/Numero-Secreto/" class="projetos__link--bank">Visualizar o
+                        projeto</a>
                 </article>
                 <article class="projetos__naped">
                     <h3 class="projetos__bank--titulo">CodeChella</h3>
-                    <p class="projetos__bank--texto">Site de um evento de música fictício, feito em HTML5, CSS3 e JavaScript.</p>
-                    <a href="https://august0luis.github.io/Codechela/" class="projetos__link--naped">Visualizar o projeto</a>
+                    <p class="projetos__bank--texto">Site de um evento de música fictício, feito em HTML5, CSS3 e
+                        JavaScript.</p>
+                    <a href="https://august0luis.github.io/Codechela/" class="projetos__link--naped">Visualizar o
+                        projeto</a>
                 </article>
                 <article class="projetos__embreve">
-                    <h3 class="projetos__embreve--titulo">EinsteinBank</h3>
-                    <p class="projetos__embreve--texto">Site institucional de banco digital moderno, feito em HTML, Css
-                        e
-                        JavaScript.</p>
-                    <a href="#" class="projetos__link--embreve">Visualizar o projeto</a>
+                    <h3 class="projetos__embreve--titulo">Qual o clima</h3>
+                    <p class="projetos__embreve--texto">Site da previsão do tempo. Construído com HTML5, CSS3 e
+                        JavaScript. Integração com API da OpenWeather</p>
+                    <a href="https://august0luis.github.io/Qual-o-clima/" class="projetos__link--embreve">Visualizar o
+                        projeto</a>
                 </article>
             </div>
-            <h2 class="projetos__link--github"><a href="#" class="projetos__link--github">Repositórios no GitHub</a>
+            <h2 class="projetos__link--github"><a href="https://github.com/August0Luis"
+                    class="projetos__link--github">Repositórios no GitHub</a>
             </h2>
         </section>
-        <section class="conhecimento__cor">
+        <section class="conhecimento__cor" id="conhecimentos">
             <div class="conhecimento">
                 <article class="conhecimento__texto">
                     <h2 class="conhecimento__titulo">Conhecimentos<span class="conhecimento__ponto">.</span></h2>
@@ -99,12 +104,18 @@
                         onmouseover="aparecerTextoCss();" onmouseout="reset();">
                     <img src="imagens/js.png" alt="simbolo do Javascript" class="conhecimento__js"
                         onmouseover="aparecerTextoJs();" onmouseout="reset();">
+                    <img src="imagens/Git.png" alt="simbolo do html" class="conhecimento__html"
+                        onmouseover="aparecerTextoGit();" onmouseout="reset();">
+                    <img src="imagens/bootstrap.png" alt="simbolo do html" class="conhecimento__html"
+                        onmouseover="aparecerTextoBootstrap();" onmouseout="reset();">
+                    <img src="imagens/react.png" alt="simbolo do html" class="conhecimento__html"
+                        onmouseover="aparecerTextoReact();" onmouseout="reset();">
                 </article>
             </div>
         </section>
     </main>
     <footer>
-        <h6>&#169; 2022 Powered by Luís Augusto</h6>
+        <h6>&#169; 2023 Desenvolvido por Luís Augusto</h6>
     </footer>
     <script src="main.js"></script>
 </body>

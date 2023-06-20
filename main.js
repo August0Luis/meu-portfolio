@@ -25,6 +25,15 @@ function aparecerTextoCss() {
 function aparecerTextoJs() {
   document.querySelector(".conhecimento__informacoes").innerHTML = "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma";
 }
+function aparecerTextoGit() {
+  document.querySelector(".conhecimento__informacoes").innerHTML = "Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.";
+}
+function aparecerTextoBootstrap() {
+  document.querySelector(".conhecimento__informacoes").innerHTML = "Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web.";
+}
+function aparecerTextoReact() {
+  document.querySelector(".conhecimento__informacoes").innerHTML = "O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.";
+}
 function reset() {
   document.querySelector(".conhecimento__informacoes").innerHTML = "*passe o cursor do mouse no card para ler*";
 }

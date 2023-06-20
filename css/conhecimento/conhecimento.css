@@ -1,3 +1,7 @@
+article img {
+    margin-bottom: 10px;
+}
+
 .conhecimento__cor {
     background-color: #09090b;
 }
@@ -38,6 +42,8 @@
     display: flex;
     width: 40%;
     justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .conhecimento__html:hover {
