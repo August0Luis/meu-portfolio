@@ -1,5 +1,4 @@
 var i = 0;
-// var A = 0;
     var tag = document.getElementById("text");
     var html = document.getElementById("text").innerHTML;
     var attr = tag.setAttribute("data", html);
